@@ -52,7 +52,7 @@ function fib_2(index) {
 
 // js中的闭包来实现,优点是可以提高取值速速且不占用全局变量
 const fib_3 = (() => {
-  //  index 取值范围 1-10000
+  // 立刻执行函数提前计算好 index 取值范围 0-10000 的 value
   let fibArr = [1, 1];
 
   for (let index_1 = 0; index_1 < 10000; index_1++) {
