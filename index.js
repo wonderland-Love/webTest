@@ -65,6 +65,7 @@ const fib_3 = (() => {
   };
 })();
 
+// console.log(fib_3(4));
 // console.log(fib_3(5));
 
 //----------------------------------------------------
@@ -95,3 +96,5 @@ const fib_4 = (() => {
 })();
 
 console.log(fib_4(5));
+console.log(fib_4(5));
+
